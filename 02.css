@@ -1,9 +1,16 @@
-table {
-    border: 1px solid #19A5BE;
-    border-collapse: collapse;
+img {
+    max-width: 1000px;
+    height: 400px;
+    margin: 420px;
 }
 
-td {
-    border: 1px solid #19A5BE;
-    border-collapse: collapse;
+main {
+    background-color: #000;
+}
+
+.tall {
+    color: rgb(255, 253, 253);
+    font-size: 60px;
+    position: absolute;
+    top: 400px;
 }
