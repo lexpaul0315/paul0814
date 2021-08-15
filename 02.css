@@ -1,18 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    list-style: none;
+    display: flex;
+    background-color: rgb(7, 167, 241);
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 254, 254);
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 20px;
+    line-height: 50px;
+}
+
+input {
+    width: 300px;
+    font-size: 20px;
+    text-indent: 10px;
+    margin: 5px;
+}
+
+button {
+    width: 40px;
+    margin: 5px;
+}
+
+#h1 {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#p {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+hr {
+    background-color: rgb(0, 255, 200);
+    height: 1px;
+    border: none
+}
+
 img {
-    max-width: 1000px;
-    height: 400px;
-    margin: 420px;
-    left: 300px;
+    max-width: 400px;
+    max-height: 350px;
 }
 
-main {
-    background-color: #000;
+#word {
+    margin-left: 50px;
 }
 
-.tall {
-    color: rgb(255, 253, 253);
-    font-size: 60px;
+#food0 {
     position: absolute;
-    top: 400px;
-    left: 300px;
+    top: 170px;
+    left: 60%;
+    border: 1px solid #19A5BE;
+    border-collapse: collapse;
+}
+
+#food {
+    background-color: rgb(235, 156, 11);
+}
+
+#food2 {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #19A5BE;
+    border-radius: 8px;
+}
+
+.food3 {
+    text-align: center;
+    color: rgb(14, 86, 240);
+    border: 1px solid #19A5BE;
+}
+
+.word1 {
+    margin-left: 50px;
+}
+
+#color {
+    color: rgb(10, 105, 247);
+    font-size: 20px;
+    margin-left: 60%;
+}
+
+.blue {
+    color: blue;
+}
+
+.b {
+    margin-top: 30px;
+    margin-left: 50px;
 }
